@@ -1,0 +1,42 @@
+body {
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+}
+
+.hero__info {
+	color: var(--text-color);
+	display: flex;
+	margin-left: 50%;
+	flex-direction: column;
+	text-align: left;
+	width: 50%;
+	font-size: 30px;
+}
+
+.hero__p {
+	margin-top: 20px;
+}
+
+h3 {
+	font-size: 34px;
+} 
+
+h4 {
+	font-size: 24px;
+}
+
+.mark {
+	border-radius: 50%;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	width: 231px;
+    height: 231px;
+	display: flex;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	color: var(--main-color);
+	padding: 15px;
+}
+

@@ -1,0 +1,35 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.header__location {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__link {
+	margin-right: 10px;
+	color: var(--text-color);
+}
+
+.header__link.-left {
+	text-transform: uppercase;
+}
+
+.header__link.-left__s {
+	color: var(--main-color);
+	margin-right: 10px;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px;) {
+	
+	.-left {
+	  display: none;
+	}
+}
+

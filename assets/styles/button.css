@@ -1,0 +1,23 @@
+.btn {
+	padding: 15px;
+	font-size: 14px;
+	border-radius: 50px;
+	background-color: var(--bth-color);
+}
+
+.btn {
+	color: var(--main-color);
+}
+
+.btn.-booking {
+	margin-top: 60px;               
+	width: max-content;
+	padding-right: 50px;
+	padding-left: 50px;
+	transition: .2s;
+}
+
+.btn.-success:hover {
+	transition: .2s;
+	background-color: var(--btn-success);
+}
