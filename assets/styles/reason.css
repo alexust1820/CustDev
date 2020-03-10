@@ -1,17 +1,9 @@
 .reasons {
 	padding-top: 120px;
 	padding-bottom: 120px;
-	background-color: rgba(47, 128, 237, 0.05);
-	border-radius: 50px;
+	border-radius: 30px 0px 0px 30px;
 	position: relative;
-}
-
-.reasons:before {
-	content: "";
-	width: 100%;
-	background-color: rgba(47, 128, 237, 0.05);
-	height: 50px;
-	position: absolute;
+	overflow: hidden;
 }
 
 .reason__h2 {
@@ -40,7 +32,18 @@
 .mark.-reason {
 	position: absolute;
 	right: -40px;
-	top: -70px;
+	top: -65px;
+}
+
+.reasons__bg {
+	position: absolute;
+	top: 0;
+	right: -150px;
+	left: 70px;
+	bottom: 0;
+	background-color: var(--bg-light-blue);
+	transform: skewX(-19deg);
+	border-radius: 40px;
 }
 
 @media screen and (max-width: 1125px) {
