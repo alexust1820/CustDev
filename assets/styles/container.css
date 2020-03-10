@@ -3,9 +3,21 @@
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 768px;) {
-	
-	.continer {
-		width: 768px;
+@media screen and (max-width: 1140px) {
+	.container {
+		width: 1000px;	
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.container {
+		width: 730px;	
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 100%;
 	}
 }

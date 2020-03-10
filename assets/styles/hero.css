@@ -13,7 +13,7 @@ body {
 	font-size: 30px;
 }
 
-.hero__p {
+.hero__p, h2 {
 	margin-top: 20px;
 }
 
@@ -40,3 +40,32 @@ h4 {
 	padding: 15px;
 }
 
+@media screen and (max-width: 1125px) {
+	.hero__p {
+		font-size: 17px;
+	}
+
+	h2 {
+		font-size: 36px;
+	}
+
+	.mark {
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	body {
+		background-size: 1200px;
+		background-position-x: 70%; 
+	}
+
+	.hero__info {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.mark {
+		margin: 0 auto;
+	}
+}
