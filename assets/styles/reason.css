@@ -32,7 +32,7 @@
 .mark.-reason {
 	position: absolute;
 	right: -40px;
-	top: -65px;
+	top: 1250px;
 }
 
 .reasons__bg {
@@ -55,3 +55,83 @@
 	max-width: 200px;
 	}
 }
+
+@media screen and (max-width: 1344px) {
+	.reason {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	.reason__l {
+		max-width: 200px;
+	}
+
+
+@media screen and (max-width: 1079px) {
+	.reason__h2 {
+		text-align: right;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 1108px) {
+	.reason {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.reason__l {
+		max-width: 150px;
+	}
+}
+
+@media screen and (max-width: 909px) {
+	.reason {
+		max-width: 500px;
+	}
+
+	.reason__h3 {
+		font-size: 15px;
+	}
+
+	.reason__l {
+		max-width: 100px;
+		font-size: 10px;
+	}
+}
+
+
+@media screen and (max-width: 578px) {
+	.reason {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.reason__h3 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.reason__l {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		font-size: 15px;
+		max-width: 150px;
+	}
+
+	.reason__h2 {
+		margin:0 auto;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.reasons__bg {
+		width: 200%;
+		height: 200%;
+		margin: 0;
+		left: -400px;
+		overflow: hidden;
+	}
+}
+
+
