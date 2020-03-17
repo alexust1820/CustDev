@@ -4,7 +4,7 @@
 	box-shadow: 0 0 40px #d4e4ff;
 	border-radius: 10px;
 	max-width: 290px;
-	height: 200px;
+	min-height: 200px;
 	margin-bottom: 40px;
 }
 
