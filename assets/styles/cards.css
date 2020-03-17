@@ -50,7 +50,14 @@
 	}
 }
 
-@media screen and (max-width: 579px) {
+@media screen and (max-width: 767px) {
+	.cards {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 599px) {
 	.card {
 		margin-left: auto;
 		margin-right: auto;

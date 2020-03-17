@@ -13,6 +13,10 @@
 	.container {
 		width: 730px;	
 	}
+
+	.container.-course {
+		position: relative;
+	}
 }
 
 
@@ -21,3 +25,5 @@
 		width: 100%;
 	}
 }
+
+
