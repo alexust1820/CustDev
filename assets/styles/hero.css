@@ -13,17 +13,10 @@ body {
 	font-size: 30px;
 }
 
-.hero__p, h2 {
+.hero__p {
 	margin-top: 20px;
 }
 
-h3 {
-	font-size: 34px;
-} 
-
-h4 {
-	font-size: 24px;
-}
 
 .mark {
 	border-radius: 50%;
