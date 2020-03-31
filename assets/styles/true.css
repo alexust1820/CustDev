@@ -1,8 +1,3 @@
-.true__h2 {
-	font-size: 34px;
-	margin-bottom: 60px;
-}
-
 .video {
 	display: flex;
 	justify-content: space-between;
@@ -52,6 +47,10 @@
 	.facts {
 		flex-wrap: wrap;
 	}
+
+	.true__img {
+	margin-left: 33px;
+}
 }
 
 @media screen and (max-width: 694px) {
@@ -79,6 +78,7 @@
 
 	.true__img {
 		max-width: 400px;
+		max-height: 315px;
 		margin-right: auto;
 		margin-left: auto;
 	}

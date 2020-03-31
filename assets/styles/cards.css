@@ -31,15 +31,11 @@
 .section__p {
 	display: flex;
 	flex-wrap: wrap;
-		font-weight: lighter;
-}
-
-.section__title {
-	margin-bottom: 10px;
-	color: var(--main-color);
+	font-weight: lighter;
 }
 
 @media screen and (max-width: 1040px) {
+
 	.card {
 	display: flex;
 	flex-wrap: wrap; 

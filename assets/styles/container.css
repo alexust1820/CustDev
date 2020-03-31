@@ -3,6 +3,10 @@
 	margin: 0 auto;
 }
 
+.container.-reviews {
+	z-index: 0;
+}
+
 @media screen and (max-width: 1140px) {
 	.container {
 		width: 1000px;	
