@@ -14,8 +14,8 @@ body {
 
 .hero__p {
 	margin-top: 20px;
+	text-transform: uppercase;
 }
-
 
 .mark {
 	border-radius: 50%;

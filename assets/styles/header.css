@@ -108,4 +108,8 @@
 		width: 100%;
 		text-align: left;
 	}
+
+	.btn.-nav {
+		color: var(--main-color);
+	}
 }

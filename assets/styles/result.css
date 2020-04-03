@@ -7,8 +7,19 @@ h4 {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	font-weight: lighter;
-	background-image: url(../img/background__result.png);
 	background-repeat: no-repeat;
+	position: relative;
+	margin-right: 40px;
+}
+
+.result:before {
+content: "" ;
+position: absolute;
+top: 0; right: 120px; bottom: 0; left: -200px;
+z-index: -1;
+background: #2F80ED;
+transform: skew(19deg);
+border-radius: 40px;
 }
 
 .result__h2 {
@@ -40,12 +51,29 @@ h4 {
 	margin-right: 20px;
 }
 
+@media screen and (max-width: 1290px) {
+	.card.-result {
+		max-width: 300px;
+		min-height: 200px;
+	}
+
+	.result__cards {
+		justify-content: space-around;
+		padding-right: 160px;
+	}
+}
+
 @media screen and (max-width: 1040px) {
+
+	.result:before {
+		display: none;
+	}
 
 	.result__cards {
 		flex-direction: column;
 		margin-right: 30px;
 		margin-left: 40px;
+		padding-right: 0px;
 	}
 
 	.card.-result {
