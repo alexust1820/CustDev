@@ -16,6 +16,8 @@
 	position: relative;
 	margin-bottom: 130px;
 	box-shadow: 0 0 40px var(--gray-shadow);
+	background-color: var( --white-color);
+	z-index: 2;
 }
 
 .card.-reviews:after {
@@ -29,13 +31,29 @@
 	transform: rotate(45deg);
 }
 
-.reviews__img {
+.review {
 	position: absolute;
 	border-radius: 50%;
 	height: 70px;
 	width: 70px;
 	bottom: -100px;
 	left: 0px;
+
+}
+
+.review.-ivan {
+	background-image: url(../img/ivan.png);
+	background-position: 20% 10%;
+}
+
+.review.-kate {
+	background-image: url(../img/kate.png);
+	background-position: 50% 25%;
+}
+
+.review.-sergay {
+	background-image: url(../img/sergay.png);
+	background-position: top;
 }
 
 .reviews {
@@ -54,4 +72,10 @@
 	left: -200px;
 	border-radius: 40px;
 	z-index: 1;
+}
+
+.mark.-review {
+	position: absolute;
+	bottom: -120px;
+	right: 120px;
 }
