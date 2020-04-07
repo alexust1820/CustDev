@@ -47,6 +47,7 @@
 	top: -90px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #6AAAFF 0%, #2F80ED 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	margin-right: 20px;
 }
 
 @media screen and (max-width: 1040px) {

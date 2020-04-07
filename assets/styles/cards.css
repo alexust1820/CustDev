@@ -4,7 +4,7 @@
 	box-shadow: 0 0 40px #d4e4ff;
 	border-radius: 10px;
 	max-width: 290px;
-	min-height: 200px;
+	min-height: 120px;
 	margin-bottom: 80px;
 }
 
@@ -46,10 +46,24 @@
 	}
 }
 
+@media screen and (max-width: 768px) {
+	.card {
+	 margin-left: 10px;
+	margin-right: 10px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.cards {
 	margin-left: 10px;
 	margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 639px) {
+	.cards {
+	 display: flex;
+	 justify-content: center;
 	}
 }
 

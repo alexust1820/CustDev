@@ -46,6 +46,12 @@ body {
 	}
 }
 
+@media screen and (max-width: 600px) {
+	body {
+		background-image: none;
+	}
+}
+
 @media screen and (max-width: 499px) {
 	body {
 		background-size: 1200px;

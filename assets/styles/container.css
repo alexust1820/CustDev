@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 767px) {
 	.container {
-		width: 100%;
+		width: calc(100vw + 200px);
 	}
 }
 
@@ -31,4 +31,17 @@
 	}
 }
 
+@media screen and (max-width: 600px) {
+	.container.-hero {
+		background-image: url(../img/hero.jpg);
+		background-repeat: no-repeat;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.container.-hero {
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+}
 
