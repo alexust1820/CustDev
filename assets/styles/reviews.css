@@ -93,6 +93,11 @@
 
 	}
 
+	.card.-reviews {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
 	.title.-l.-reviews {
 		margin-left: 40px;
 	}
@@ -116,6 +121,8 @@
 		left: 10px;
 		border-radius: 40px;
 		z-index: 1;
+		overflow: hidden;
+	    max-width: 900px;
 	}
 
 	.mark.-review {
@@ -125,5 +132,10 @@
 	.reviews {
 		padding-top: 30px;
 	}
+}
 
+@media screen and (max-width: 420px) {
+	.card {
+		min-width: 100px;
+	}
 }

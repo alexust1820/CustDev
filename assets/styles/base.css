@@ -19,3 +19,9 @@ a {
 section {
 	margin-bottom: 40px;
 }
+
+@media screen and (max-width: 768px) {
+	body {
+		min-width: 768px;
+	}
+}

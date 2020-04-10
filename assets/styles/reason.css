@@ -33,7 +33,7 @@
 .mark.-reason {
 	position: absolute;
 	right: 0px;
-	top: 1250px;
+	top: 1200px;
 }
 
 .reasons__bg {
@@ -127,7 +127,7 @@
 	}
 
 	.reasons__bg {
-		width: 200%;
+		max-width: 1000px;
 		height: 200%;
 		margin: 0;
 		left: -400px;
