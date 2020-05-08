@@ -1,0 +1,24 @@
+.forms {
+	background: var(--bg-light-blue);
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form {
+	margin-top: 20px;
+	width: 200px;
+	max-height: 45px;
+	background-color: var(--white-color);
+	padding: 10px;
+	padding-left: 20px;
+	text-align: center left;
+	color: var(--gray);
+	border: 2px solid var(--main-color);
+}
+
+@media screen and (max-width: 500px) {
+	.form {
+		margin-right:  auto;
+		margin-left: auto;
+	}
+}

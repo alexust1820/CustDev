@@ -54,12 +54,6 @@
 }
 
 @media screen and (max-width: 694px) {
-
-	.true {
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-
 	.card.-true {
 		display: none;
 	}

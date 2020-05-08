@@ -1,8 +1,8 @@
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px 30px 20px 30px;
+
 }
 
 .header__location {
@@ -111,5 +111,9 @@
 
 	.btn.-nav {
 		color: var(--main-color);
+	}
+
+	.header {
+		display: none;
 	}
 }

@@ -10,14 +10,11 @@ img {
 
 * {
 	box-sizing: border-box;
+
 }
 
 a {
 	text-decoration: none;
-}
-
-section {
-	margin-bottom: 40px;
 }
 
 @media screen and (max-width: 768px) {

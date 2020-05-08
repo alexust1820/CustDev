@@ -5,7 +5,7 @@
 	border-radius: 10px;
 	max-width: 290px;
 	min-height: 120px;
-	margin-bottom: 180px;
+	margin-bottom: 10%;
 }
 
 .section__card {
@@ -13,6 +13,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 40px;
+	padding-top: 60px;
 }
 
 .section__h3 {
@@ -20,6 +21,98 @@
 	margin-bottom: 20px;
 	margin-top: 20px; 
 	padding-right: 30px;
+}
+
+.card.-costin {
+	background-color: var(--white-color);
+	max-width: 370px;
+}
+
+.card.-costin.-book {
+	display: flex;
+	justify-content: space-between;
+	max-width: 370px;
+}
+
+.card.-costin.-img {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 49px;
+}
+
+.card.-costin.-img:after {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	background-color: var(--main-color);
+	height: 50px;
+	width: 50px;
+	z-index: 4;
+	opacity:0.3;
+	top: 90px;
+}
+
+.card.-costin.-img:before {
+	content: "";
+	position: absolute;
+	top: 95px;
+	left: 178px;
+	border: 20px solid transparent;
+	border-left: 20px solid var(--white-color);
+}
+
+.card.-costin.-smile {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
+.card.-cost.-circle {
+	position: relative;
+}
+
+.card.-cost.-circle:after {
+	content: "выгодно";
+	width: 100px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--bth-color);
+	height: 100px;
+	background-color: var(--main-color);
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	right: -50px;
+
+}
+
+.card.-cost {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-width: 250px;
+	background-color: var(--bth-color);
+	margin-right: 50px;
+}
+
+.card.-cost__b {
+	min-width: 500px;
+	padding: 70px;
+	padding-top: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--bth-color);
 }
 
 .cards {
@@ -44,12 +137,30 @@
 	.section__card {
 		flex-direction: column;
 	}
+
+	.card.-costin {
+		max-width: 270px;
+	}
+
+	.card.-costin.-book {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card.-costin.-img:before {
+	content: "";
+	position: absolute;
+	top: 95px;
+	left: 130px;
+	border: 20px solid transparent;
+	border-left: 20px solid var(--white-color);
+}
 }
 
 @media screen and (max-width: 768px) {
 	.card {
 	 margin-right: auto;
-	margin-left: auto;
+	 margin-left: auto;
 	}
 }
 
@@ -58,6 +169,7 @@
 	margin-left: 140px;
 	margin-right: 140px;
 	}
+
 }
 
 @media screen and (max-width: 639px) {
@@ -85,4 +197,41 @@
 	.card {
 		margin-bottom: 10px;
 	}
+}
+
+@media screen and (max-width: 1080px) {
+
+	.card.-cost {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-width: 300px;
+	background-color: var(--bth-color);
+	margin-right: 10px;
+	}
+
+.card.-cost__b {
+	min-width: 300px;
+	background-color: var(--bth-color);
+	}
+}
+
+
+@media screen and (max-width: 1126px) {
+
+	.card.-cost {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	min-width: 300px;
+	background-color: var(--bth-color);
+	margin-right: 10px;
+	}
+
+.card.-cost__b {
+	min-width: 300px;
+	max-height: 150px;
+	background-color: var(--bth-color);
+	}
+	
 }

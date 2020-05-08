@@ -9,17 +9,7 @@ h4 {
 	font-weight: lighter;
 	background-repeat: no-repeat;
 	position: relative;
-	margin-right: 40px;
-}
-
-.result:before {
-content: "" ;
-position: absolute;
-top: 0; right: 120px; bottom: 0; left: -200px;
-z-index: -1;
-background: #2F80ED;
-transform: skew(19deg);
-border-radius: 40px;
+	background-image: url(../img/Rectangle.png);
 }
 
 .result__h2 {
@@ -71,7 +61,7 @@ border-radius: 40px;
 
 	.result__cards {
 		flex-direction: column;
-		margin-right: 30px;
+		margin-right: 0px;
 		margin-left: 40px;
 		padding-right: 0px;
 	}
@@ -95,10 +85,5 @@ border-radius: 40px;
 	.result__h2 {
 		text-align: center;
 		margin-left: 0px;
-	}
-
-	.result {
-	background-image: url(../img/background__result__m.png);
-	padding: 0;
-}
+ }
 }

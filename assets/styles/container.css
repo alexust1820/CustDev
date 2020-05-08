@@ -3,6 +3,27 @@
 	margin: 0 auto;
 }
 
+.container.-photos {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.conatiner.-c {
+	margin:0 auto;
+	position: relative;
+}
+
+.container.-footer.-down {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container.-forms-c {
+	display: flex;
+	justify-content: space-between;
+	min-height: 100px;
+}
+
 @media screen and (max-width: 1140px) {
 	.container {
 		width: 1000px;	
@@ -17,11 +38,21 @@
 	.container.-course {
 		position: relative;
 	}
+
+	.container.-forms-c {
+		flex-wrap: wrap;
+		max-width: 540px;
+	}
 }
 
 @media screen and (max-width: 767px) {
 	.container {
-		width: calc(100vw + 200px);
+		width: 100%;
+	}
+
+	.container.-footer.-down {
+		flex-direction: column;
+		margin: 0 auto;
 	}
 }
 
@@ -42,6 +73,10 @@
 	.container.-hero {
 		background-position: center top;
 		background-repeat: no-repeat;
+	}
+
+	.container.-forms-c {
+		flex-direction: column;
 	}
 }
 
